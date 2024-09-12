@@ -19,7 +19,7 @@ namespace Design_UI
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if (txtUsername.Text == "admint" && txtPassword.Text == "admin")
+            if (txtUsername.Text == "admin" && txtPassword.Text == "admin")
             {
                 FormMain frmMain = new FormMain();
                 frmMain.Show();
